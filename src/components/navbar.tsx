@@ -6,14 +6,15 @@ export default function NavBar() {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand>Shaun</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Brand className= "brand">Shaun</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav>
-                        <Nav.Link>Helo</Nav.Link>
-                        <Nav.Link>Helo</Nav.Link>
-                        <Nav.Link>Helo</Nav.Link>
-                        <Nav.Link>Helo</Nav.Link>
+                    <Nav className="nav">
+                        <Nav.Link href="commands" className="navbutton">Commands</Nav.Link>
+                        <Nav.Link className="navbutton">Credits</Nav.Link>
+                        <Nav.Link className="navbutton">Privacy Policy</Nav.Link>
+                        <Nav.Link className="navbutton">Terms of use</Nav.Link>
+
 
                     </Nav>
                 </Navbar.Collapse>

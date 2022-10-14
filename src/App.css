@@ -1,7 +1,11 @@
 .App {
-  height: 100vh;
-
   background-color: #36393f;
+  background-repeat: repeat;
+  text-align: center;
 }
+
+
+
+
 
 

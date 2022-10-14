@@ -1,0 +1,19 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.commands {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.command {
+    min-width: 90%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
