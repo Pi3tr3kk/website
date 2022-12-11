@@ -31,9 +31,15 @@ h1 {
     margin-top: 2%;
 }
 
-#filter-buttons {
-    min-width: 50%;
-    margin-top: 2%;
-    text-align: center;
+.filter-button {
+    width: 100%;
+    margin-top: 5%;
 
 }
+
+.con {
+    margin-top: 2%;
+    min-width: 50%;
+    
+}
+
